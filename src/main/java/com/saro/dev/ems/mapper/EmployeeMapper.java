@@ -16,7 +16,7 @@ public class EmployeeMapper {
     public static Employee maptoEmployee(EmployeeDto employeeDto) {
         return new Employee(
                 employeeDto.getId(),
-                employeeDto.getFistName(),
+                employeeDto.getFirstName(),
                 employeeDto.getLastName(),
                 employeeDto.getEmail()
         );
